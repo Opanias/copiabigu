@@ -1,0 +1,103 @@
+html,body{
+	height: 100%;
+}
+h1{
+	font-size: 70px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+p{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.container{
+	height: 100%;
+}
+
+
+/*Section header*/
+#head {
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 80%;
+}
+#imagem_logo{
+	width: 90px;
+	padding-top: 6px;
+}
+#menu {
+	font-family: sans-serif;
+	color: #000;
+	font-weight: bold;
+}
+
+
+/*Section imagem fundo*/
+#imagem_fundo {
+	margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../images/fundo_bigu.jpg");
+    background-attachment: fixed;
+}
+#imagem_fundo p{
+	max-width: 500px;
+	text-align: right;
+}
+#imagem_fundo h1{
+	max-width: 500px;
+	text-align: right;
+}
+.imagem_fundo_centralizar {
+	display: table-cell;
+	vertical-align: middle;
+}
+.centralizar_table {
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+#coment_faixa {
+	font-size: 17px;
+}
+
+
+/*Section Download*/
+.section_gray{
+	background-color: #EFEFEF;
+}
+.center_text {
+	text-align: center;
+	padding: 75px;
+}
+.imagem_store {
+	width: 170px;
+}
+
+
+/*Section Download*/
+#lamp {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	width: 35px;
+}
+#paragraph {
+	margin-top: 80px;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+.video-container {
+	position: relative;
+    padding-bottom: 600px;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+}
